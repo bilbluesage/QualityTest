@@ -38,7 +38,10 @@ class QualityService {
 
     def runErrors(int x) {
         try {
-            System.out.println("whatever")
+            String.format("The value of my integer is %d", "Hello World");
+            if (x == null) {
+                return true
+            }
         } catch (Exception e) {
             //do nothing
         }
